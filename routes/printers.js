@@ -12,9 +12,8 @@ router.get('/printpic', function(req, res, next) {
     console.log('platform:', process.platform);
     console.log('try to print file: ' + filename);
     if( process.platform != 'win32') {
-      printer.printDirect({filename:req.body.filename,
+      printer.printFile({filename:req.body.filename,
         printer:  printer.getDefaultPrinterName(),
-        type: 'RAW' ,
         //options: {PageSize:'P6x4'},
         success:function(jobID){
           console.log("sent to printer with ID: "+jobID);
