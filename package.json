@@ -9,6 +9,7 @@
     "cookie-parser": "^1.4.4",
     "debug": "^2.6.9",
     "edge": "^7.10.1",
+    "edge-js": "^12.3.1",
     "express": "^4.16.4",
     "http-errors": "^1.7.3",
     "merge-images": "^1.1.0",
@@ -17,7 +18,9 @@
     "node-gyp": "^5.0.3",
     "node-native-printer": "^1.0.0-beta.5",
     "node-webcam": "^0.5.0",
+    "print-js": "^1.0.61",
     "printer": "^0.2.2",
+    "printjs": "^1.1.0",
     "pug": "^2.0.0-beta11",
     "sharp": "^0.23.0",
     "ws": "^7.1.2"

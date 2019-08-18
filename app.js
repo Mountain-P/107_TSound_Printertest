@@ -8,6 +8,7 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var printerRouter = require('./routes/printers');
 var imgtestRouter = require('./routes/imgtest');
+
 var app = express();
 
 // view engine setup
@@ -25,6 +26,7 @@ app.use('/users', usersRouter);
 app.use('/printers',printerRouter);
 app.use('/imgtest',imgtestRouter);
 app.use('/capture',imgtestRouter);
+
 
 
 // catch 404 and forward to error handler
